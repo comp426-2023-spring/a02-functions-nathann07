@@ -1,0 +1,11 @@
+{
+  "name": "galosh",
+  "version": "0.0.1",
+  "description": "This package tells you whether you need your galoshes tomorrow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "author": "nathann07",
+  "license": "AGPL-3.0-or-later"
+}
