@@ -14,8 +14,8 @@ if (args.h) {
 process.exit(0); }
 
 let timezone = moment.tz.guess();
-let latitude;
-let longitude;
+let latitude = 99999;
+let longitude = 99999;
 if (args.z) {
     timezone = args.z;
 }
