@@ -6,6 +6,15 @@
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
   "author": "nathann07",
-  "license": "AGPL-3.0-or-later"
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.42",
+    "node-fetch": "^3.3.1"
+  }
 }
